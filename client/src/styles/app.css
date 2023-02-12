@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #777777;
+    height: 100%;
+}
+
+#root {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%; /*Can also be min-height*/
+}
+
+/*MAIN PAGE*/
+#main-page {
+    padding: .8em;
+}
+
+/*HEADER AND FOOTER*/
+#main-header {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: .8em;
+    border-bottom: solid 1px #ffffff;
+}
+
+#main-footer {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: .4em;
+    border-top: solid 1px #ffffff;
+}
